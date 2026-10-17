@@ -1,0 +1,11 @@
+{
+  "parentSnapshotId": "expanded-20261011-v1",
+  "snapshotId": "expanded-20261011-zhipu-v1",
+  "embeddingModel": "embedding-3:1024",
+  "parentFiles": {
+    "entities.json": "d5fa93e2df72b7b1bae87131efc315af8fa867a3068d833dbe7c34a3e2a744ae",
+    "guides.jsonl": "2eccf97b3d26dbd853dccd2f9dbbfd15f78cc7eb0b2ea0304ca0f52854bc4bee",
+    "sources.json": "864a82de3b64f28c673ff5dd2e5065f651c905981f8d0e4e4e701e4958aee41e"
+  },
+  "note": "Only snapshot identity changes; primary source receipts shared with immutable parent."
+}

@@ -1,0 +1,306 @@
+[
+  {
+    "name": "queryGameData",
+    "description": "按中文名、英文名或ID精确查实体。先查询名称获取稳定ID；歧义必须追问。",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "idOrName": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "listCrops",
+    "description": "列出所有已收录作物，可按季节筛选。",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "season": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "searchGuide",
+    "description": "检索本地攻略与实际来源。没有结果不能捏造来源。玩家经验不能当作确定规则。 topic仅接受英文分类crop/material/fish/gift/bundle/version/advice；不确定时省略，不得传中文分类。",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "topic": {
+          "type": "string",
+          "enum": [
+            "crop",
+            "material",
+            "fish",
+            "gift",
+            "bundle",
+            "version",
+            "advice"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "calculateCropProfit",
+    "description": "确定性计算作物收益。必须有用户提供的起止日期、种植数量和预算，不可猜默认值。各作物是独立比较方案。只支持普通品质、无肥料职业加成、固定数量补种、直接出售。 rules可省略；如填写，只能使用quality=normal、fertilizer=none、professions=none、replant=fixed_quantity、sell=direct这些英文参数；不要传入中文键或浇水字段。",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "cropIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "start": {
+          "type": "object",
+          "properties": {
+            "year": {
+              "type": "integer"
+            },
+            "season": {
+              "type": "string",
+              "enum": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ]
+            },
+            "day": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "year",
+            "season",
+            "day"
+          ],
+          "additionalProperties": false
+        },
+        "end": {
+          "type": "object",
+          "properties": {
+            "year": {
+              "type": "integer"
+            },
+            "season": {
+              "type": "string",
+              "enum": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ]
+            },
+            "day": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "year",
+            "season",
+            "day"
+          ],
+          "additionalProperties": false
+        },
+        "quantity": {
+          "type": "integer"
+        },
+        "budget": {
+          "type": "integer"
+        },
+        "rules": {
+          "type": "object",
+          "properties": {
+            "quality": {
+              "type": "string",
+              "enum": [
+                "normal"
+              ]
+            },
+            "fertilizer": {
+              "type": "string",
+              "enum": [
+                "none"
+              ]
+            },
+            "professions": {
+              "type": "string",
+              "enum": [
+                "none"
+              ]
+            },
+            "replant": {
+              "type": "string",
+              "enum": [
+                "fixed_quantity"
+              ]
+            },
+            "sell": {
+              "type": "string",
+              "enum": [
+                "direct"
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "expandMaterialRequirements",
+    "description": "按已收录配方递归展开材料。必须提供目标ID和制作数量；未声明库存默认空并说明。",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "targetId": {
+          "type": "string"
+        },
+        "quantity": {
+          "type": "integer"
+        },
+        "owned": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "findFish",
+    "description": "筛选普通钓鱼条件。季节spring/summer/fall/winter，天气sun/rain/any，时间整数HHMM 600至2600，地点使用查询结果的ID；可省略过滤条件。",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "season": {
+          "type": "string"
+        },
+        "weather": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "time": {
+          "type": "integer"
+        },
+        "fishName": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "queryGiftPreferences",
+    "description": "查送礼偏好，至少提供村民或物品；个人例外优先，不计算好感度。",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "villager": {
+          "type": "string"
+        },
+        "item": {
+          "type": "string"
+        },
+        "level": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "getBundleMissing",
+    "description": "计算普通献祭包缺项。物品包必须由用户明确已提交清单和背包清单，明确无物品才传空数组。金钱包只需用户提供gold。品质不可猜。",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "bundle": {
+          "type": "string"
+        },
+        "submitted": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "itemId": {
+                "type": "string"
+              },
+              "quantity": {
+                "type": "integer"
+              },
+              "quality": {
+                "type": "string",
+                "enum": [
+                  "normal",
+                  "silver",
+                  "gold",
+                  "iridium"
+                ]
+              }
+            },
+            "required": [
+              "itemId",
+              "quantity",
+              "quality"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "owned": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "itemId": {
+                "type": "string"
+              },
+              "quantity": {
+                "type": "integer"
+              },
+              "quality": {
+                "type": "string",
+                "enum": [
+                  "normal",
+                  "silver",
+                  "gold",
+                  "iridium"
+                ]
+              }
+            },
+            "required": [
+              "itemId",
+              "quantity",
+              "quality"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "gold": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+]

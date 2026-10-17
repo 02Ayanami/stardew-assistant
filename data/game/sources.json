@@ -1,0 +1,831 @@
+[
+  {
+    "sourceId": "en-wiki-crops",
+    "title": "Crops",
+    "url": "https://stardewvalleywiki.com/Crops",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "193979",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Crops.json.gz",
+    "sha256": "108b0c99fa81e15515a9ae9619f8392f3d75c6980b21d92ab243313b78a450ad",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-fish",
+    "title": "Fish",
+    "url": "https://stardewvalleywiki.com/Fish",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "194048",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Fish.json.gz",
+    "sha256": "3a3e78cc51a9741dcc2a9c7592e46cc5b706b86cce99ba9477425c161a249914",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-bundles",
+    "title": "Bundles",
+    "url": "https://stardewvalleywiki.com/Bundles",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195343",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Bundles.json.gz",
+    "sha256": "88edee0d9bc2cf481c1e6edf34d5a1f5c98648b163926e73079fe81db2b385a0",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-crafting",
+    "title": "Crafting",
+    "url": "https://stardewvalleywiki.com/Crafting",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195354",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Crafting.json.gz",
+    "sha256": "27e03e8d3b97d799597816d19aafe36192ff15b4888011be626a347306a4357b",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-friendship",
+    "title": "Friendship",
+    "url": "https://stardewvalleywiki.com/Friendship",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195350",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Friendship.json.gz",
+    "sha256": "a2f4089262791dd0f07bfb479d7f9c0fef117e55865d9998dfad9ca293b619e5",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-copper-bar",
+    "title": "Copper Bar",
+    "url": "https://stardewvalleywiki.com/Copper_Bar",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "190236",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Copper_Bar.json.gz",
+    "sha256": "5ba2ba15f94eabfcdc657f6c44bce8fbe57c81bbd402f29a3b69d6abdfe63183",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-iron-bar",
+    "title": "Iron Bar",
+    "url": "https://stardewvalleywiki.com/Iron_Bar",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "192802",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Iron_Bar.json.gz",
+    "sha256": "f1ad35c19500088a64d0d461c0c4c5d3170ba6855c8117b650e5439198512e96",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-gold-bar",
+    "title": "Gold Bar",
+    "url": "https://stardewvalleywiki.com/Gold_Bar",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "192803",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Gold_Bar.json.gz",
+    "sha256": "55e982cf919a661c783c88959cb7a9458343a28236f039b0255c272a01d60911",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-ghostfish",
+    "title": "Ghostfish",
+    "url": "https://stardewvalleywiki.com/Ghostfish",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "193259",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Ghostfish.json.gz",
+    "sha256": "ee9f2fd45cd59698cdd4357326400e352276ba7e253fc3be9b6e8f26ef487804",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-abigail",
+    "title": "Abigail",
+    "url": "https://stardewvalleywiki.com/Abigail",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195346",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Abigail.json.gz",
+    "sha256": "3646122a7006f394f270d01711fb6cac36e89b93ba5272324bc16f798915ccb3",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-alex",
+    "title": "Alex",
+    "url": "https://stardewvalleywiki.com/Alex",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195329",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Alex.json.gz",
+    "sha256": "f49be8df0e937f3ee7460919ecf1e5045e28105d7d606f8c57264e4b8ad26e6f",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-elliott",
+    "title": "Elliott",
+    "url": "https://stardewvalleywiki.com/Elliott",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195323",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Elliott.json.gz",
+    "sha256": "1cc5c9f7defdccc07aa582f67f5be88f7fe2ecdc833fc78a0553cf104b908a20",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-emily",
+    "title": "Emily",
+    "url": "https://stardewvalleywiki.com/Emily",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195320",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Emily.json.gz",
+    "sha256": "5bb5ceba35abff3f2fb448a596f24164ff858c9f5a4d6cf8ad3e60089c7e4911",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-haley",
+    "title": "Haley",
+    "url": "https://stardewvalleywiki.com/Haley",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195345",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Haley.json.gz",
+    "sha256": "450148d53931edacc41dbd32d736da47699cfc23a9e258fcd80950f250315302",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-harvey",
+    "title": "Harvey",
+    "url": "https://stardewvalleywiki.com/Harvey",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195316",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Harvey.json.gz",
+    "sha256": "f4d97e69358a3ef7727aa1ecf7c75938b4f7b47df61ce1eb051906571b37236d",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-leah",
+    "title": "Leah",
+    "url": "https://stardewvalleywiki.com/Leah",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195341",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Leah.json.gz",
+    "sha256": "79f2394ee3cb01163b856ef8b8e3e894e2595df87047ea7139b911effded6928",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-maru",
+    "title": "Maru",
+    "url": "https://stardewvalleywiki.com/Maru",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195337",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Maru.json.gz",
+    "sha256": "10bb3134f6ec1e1362623861b533e3c1414c5e07c67e43d1367b94d0c2ea49f0",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-penny",
+    "title": "Penny",
+    "url": "https://stardewvalleywiki.com/Penny",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195322",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Penny.json.gz",
+    "sha256": "5e8a43d8edcd8e19aa8666a443b3b05ab3304b41054e405d5e4a73566a5fcc4d",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-sam",
+    "title": "Sam",
+    "url": "https://stardewvalleywiki.com/Sam",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195335",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Sam.json.gz",
+    "sha256": "7313f58916f1bf5cfcd1f661066f9f3c292a169d4348743ed552d12de801d359",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-sebastian",
+    "title": "Sebastian",
+    "url": "https://stardewvalleywiki.com/Sebastian",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195342",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Sebastian.json.gz",
+    "sha256": "31d7e5d552e365f8c48911d1145527b40adb7147a74c055533166b3bbf46c673",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-wiki-shane",
+    "title": "Shane",
+    "url": "https://stardewvalleywiki.com/Shane",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "195349",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "en",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/Shane.json.gz",
+    "sha256": "dfb847ce3a6c127965f5751c2a9eb973d0c7f9cc84166453ab23c6850534c3d0",
+    "captureMethod": "MediaWiki action=parse; page revision supplied by API"
+  },
+  {
+    "sourceId": "en-player-minmax",
+    "title": "Stardew Valley Min-Max Routing / Strategy",
+    "url": "https://github.com/Zamiell/stardew-valley/blob/bb26ad88379efdaefefb40cd2cd40695893dd3f3/Min-Max_Guide.md",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "sha256:349e766ed7a01fe623043c8bd9107c80fdb51859b69a25d6bdc2324f367b49ff",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "PLAYER_GUIDE",
+    "language": "en",
+    "sourceFamily": "zamiell-guide",
+    "author": "BlackSight6 & Zamiel",
+    "publishedAt": "2021-01-03",
+    "applicableVersions": [
+      "1.6.0"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/minmax.html.gz",
+    "sha256": "ae4af55ffec35030dad5eaa968eedbe3df4db1ec86e7e70205a27c368d71979e",
+    "captureMethod": "original full primary document; manual metadata and content inspection",
+    "firstPublicationEvidence": "https://forums.stardewvalley.net/threads/min-max-guide-optimal-play.4070/ (Zamiel, 2021-01-03; original link announcement)",
+    "updatedAt": "2026-10-06",
+    "commit": "bb26ad88379efdaefefb40cd2cd40695893dd3f3",
+    "dateNote": "publishedAt records original guide announcement; version1.6.0 applies to pinned updated guide, not its 2021 original state",
+    "updateDateReceipt": {
+      "path": "receipts/minmax-commit.json.gz",
+      "sha256": "a8b08c60c022b1d2c97e7d06066f935bad322b751e9c2656b9394ed69f2dc1a8",
+      "apiUrl": "https://api.github.com/repos/Zamiell/stardew-valley/commits?path=Min-Max_Guide.md&per_page=1"
+    }
+  },
+  {
+    "sourceId": "en-player-bobbi",
+    "title": "Farmer Bobbi's suggestions for med/meh easygoing Stardew Valley play",
+    "url": "https://forums.stardewvalley.net/threads/farmer-bobbis-suggestions-for-med-meh-easygoing-stardew-valley-play.29052/",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "sha256:db6c5b0a30256aa3ca5c91049a39015b057409f8152280332abaabf83efe5a41",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "PLAYER_GUIDE",
+    "language": "en",
+    "sourceFamily": "forum-lew-zealand",
+    "author": "Lew Zealand",
+    "publishedAt": "2024-04-10",
+    "applicableVersions": [
+      "1.6"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/bobbi.html.gz",
+    "sha256": "92ef431e9b34d562e0a236e6055e7f0335afdfd39acd4549cae46f426875ea79",
+    "captureMethod": "original full primary document; manual metadata and content inspection"
+  },
+  {
+    "sourceId": "en-player-cosmetic",
+    "title": "Hunting the Three Exclusive Random Cosmetic Item: A Guide",
+    "url": "https://forums.stardewvalley.net/threads/hunting-the-three-exclusive-random-cosmetic-item-a-guide.33452/",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "sha256:4b929cb4ae56228916f7b1bef165ea28de19965c8441131eddf4644cbc0c182a",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "PLAYER_GUIDE",
+    "language": "en",
+    "sourceFamily": "forum-perfection-whale-farm",
+    "author": "PerfectionWhaleFarm",
+    "publishedAt": "2024-11-13",
+    "applicableVersions": [
+      "1.6"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/cosmetic.html.gz",
+    "sha256": "addcd601a9cf54c04c1fc2b1f39513dd50220a274fe57c9a805a73312965e6cf",
+    "captureMethod": "original full primary document; manual metadata and content inspection"
+  },
+  {
+    "sourceId": "en-official-changelog-1-6",
+    "title": "Stardew Valley 1.6 Update Full Changelog",
+    "url": "https://www.stardewvalley.net/stardew-valley-1-6-update-full-changelog/",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "sha256:57684305ff5a0754ffcd6b5bbf2104237d3e82fc48e1d0b527115297313af2e0",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "OFFICIAL_CHANGELOG",
+    "language": "en",
+    "sourceFamily": "concernedape",
+    "author": "ConcernedApe",
+    "publishedAt": "2024-03-19",
+    "applicableVersions": [
+      "1.6"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/changelog.html.gz",
+    "sha256": "8dc501cb8297c5f58e0fbc98b07c2b685210c918413ac02f6e4cdfdfa2617fa0",
+    "captureMethod": "official developer changelog"
+  },
+  {
+    "sourceId": "zh-wiki-crops",
+    "title": "农作物",
+    "url": "https://zh.stardewvalleywiki.com/%E5%86%9C%E4%BD%9C%E7%89%A9",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "55247",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Crops.json.gz",
+    "sha256": "7a753044e30a20a3b7289229265d649fb41c80b8e76c13b7f3f6f055ccb6455b",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-crafting",
+    "title": "打造",
+    "url": "https://zh.stardewvalleywiki.com/%E6%89%93%E9%80%A0",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "54998",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Crafting.json.gz",
+    "sha256": "70c5d5965c7b14adb20a802038e678b881d54252a89b7d3881768f88ae4aafc9",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-bundles",
+    "title": "收集包",
+    "url": "https://zh.stardewvalleywiki.com/%E6%94%B6%E9%9B%86%E5%8C%85",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "55120",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Bundles.json.gz",
+    "sha256": "e402980948311bcd6a0a9b72f21c701683a5cabae41d6d9370be4e8c1003e470",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-abigail",
+    "title": "阿比盖尔",
+    "url": "https://zh.stardewvalleywiki.com/%E9%98%BF%E6%AF%94%E7%9B%96%E5%B0%94",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "55185",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Abigail.json.gz",
+    "sha256": "9a6d0fd18287d8ff3054150b6f79b4c33aaf1d4d715e93aa11f2def2d20fe495",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-alex",
+    "title": "亚历克斯",
+    "url": "https://zh.stardewvalleywiki.com/%E4%BA%9A%E5%8E%86%E5%85%8B%E6%96%AF",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "55068",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Alex.json.gz",
+    "sha256": "61fd8d7674544d3b3adb3e9341bc4e49d1f055d6e517511dc2badf216b8553ea",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-elliott",
+    "title": "艾利欧特",
+    "url": "https://zh.stardewvalleywiki.com/%E8%89%BE%E5%88%A9%E6%AC%A7%E7%89%B9",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "55231",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Elliott.json.gz",
+    "sha256": "f8a0184f232eacb5db0ace7015b1c79131cc4a5e1369689e6227aaf308318fd6",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-emily",
+    "title": "艾米丽",
+    "url": "https://zh.stardewvalleywiki.com/%E8%89%BE%E7%B1%B3%E4%B8%BD",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "55091",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Emily.json.gz",
+    "sha256": "e0d6771c3ee0f7cbbb438f3290246c7a9efb82d55b4b0b620a3dc4f162554315",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-haley",
+    "title": "海莉",
+    "url": "https://zh.stardewvalleywiki.com/%E6%B5%B7%E8%8E%89",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "55013",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Haley.json.gz",
+    "sha256": "a282259cad6ed34242e6c7a8403665376cd03bac6f2c67d70ecf8b8140736d19",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-harvey",
+    "title": "哈维",
+    "url": "https://zh.stardewvalleywiki.com/%E5%93%88%E7%BB%B4",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "54980",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Harvey.json.gz",
+    "sha256": "d765e7fdd703c9b7e0484367300c12acdfa571674fd9a2507ccf894702d5ca69",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-leah",
+    "title": "莉亚",
+    "url": "https://zh.stardewvalleywiki.com/%E8%8E%89%E4%BA%9A",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "55315",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Leah.json.gz",
+    "sha256": "2a278bb1f6e6debc65e867fd7c2babd2064470a63763abcc1f85ea889bf14c08",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-maru",
+    "title": "玛鲁",
+    "url": "https://zh.stardewvalleywiki.com/%E7%8E%9B%E9%B2%81",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "55313",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Maru.json.gz",
+    "sha256": "273a8fb961728ac6e6a335e77123e34a643aa8118ea5c75006c82ad44101c453",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-penny",
+    "title": "潘妮",
+    "url": "https://zh.stardewvalleywiki.com/%E6%BD%98%E5%A6%AE",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "55311",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Penny.json.gz",
+    "sha256": "07da86aafc33f4dcb1d784b48afc78c12ab927dc9cb7a8e93060cb31329002a5",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-sam",
+    "title": "山姆",
+    "url": "https://zh.stardewvalleywiki.com/%E5%B1%B1%E5%A7%86",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "55076",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Sam.json.gz",
+    "sha256": "8b4d56d5fd2048953234c8903f52845cc1ccabe7bf169678b4b4703ab14dca4e",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-sebastian",
+    "title": "塞巴斯蒂安",
+    "url": "https://zh.stardewvalleywiki.com/%E5%A1%9E%E5%B7%B4%E6%96%AF%E8%92%82%E5%AE%89",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "55064",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Sebastian.json.gz",
+    "sha256": "5217ffa86ed063dc12f99ce9ab929f3a73d21f007c3c5f1e926ce919ed866e8e",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-shane",
+    "title": "谢恩",
+    "url": "https://zh.stardewvalleywiki.com/%E8%B0%A2%E6%81%A9",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "55356",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Shane.json.gz",
+    "sha256": "725a6522607525a41e750cb4cab3bcc2b1690fc3234e7e629825496d369a29db",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  },
+  {
+    "sourceId": "zh-wiki-fish",
+    "title": "鱼",
+    "url": "https://zh.stardewvalleywiki.com/%E9%B1%BC",
+    "gameVersion": "1.6.x（仅核验所收录规则）",
+    "revision": "55286",
+    "capturedAt": "2026-10-11",
+    "snapshotId": "expanded-20261011-zhipu-v1",
+    "sourceType": "WIKI",
+    "language": "zh",
+    "sourceFamily": "stardew-wiki",
+    "author": null,
+    "publishedAt": null,
+    "applicableVersions": [
+      "1.6.x"
+    ],
+    "receiptPath": "../expanded-20261011/receipts/zh-Fish.json.gz",
+    "sha256": "e2a154584a660d480ba6454225e63073ca1925297fc027256f30c5fdff4209fc",
+    "captureMethod": "Chinese MediaWiki action=parse; independently compared named table fields"
+  }
+]

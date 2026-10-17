@@ -1,0 +1,27 @@
+server:
+  address: ${SERVER_ADDRESS:127.0.0.1}
+  port: ${PORT:9911}
+spring:
+  config:
+    import: optional:file:../.env[.properties]
+  datasource:
+    url: ${DATABASE_URL:jdbc:mysql://127.0.0.1:3307/stardew_simple?connectionTimeZone=UTC&forceConnectionTimeZoneToSession=true&characterEncoding=UTF-8}
+    username: ${DATABASE_USER:stardew}
+    password: ${DATABASE_PASSWORD:stardew-simple-local}
+  jackson:
+    deserialization:
+      accept-float-as-int: false
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    default-statement-timeout: 15
+assistant:
+  data-dir: ${DATA_DIR:../data/game}
+  api-key: ${ZHIPU_API_KEY:}
+  chat-model: ${CHAT_MODEL:glm-5.3-flash}
+  embedding-model: ${EMBEDDING_MODEL:embedding-3}
+  embedding-dimension: ${EMBEDDING_DIMENSION:1024}
+  milvus-uri: ${MILVUS_URI:http://127.0.0.1:19531}
+  milvus-collection: stardew_simple_guides
+  min-score: ${RETRIEVAL_MIN_SCORE:0.35}

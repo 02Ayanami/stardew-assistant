@@ -1,0 +1,98 @@
+/* Components consume the current API while sharing the Valley Companion theme. */
+.tool-fields {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.tool-fields > fieldset {
+  padding: 14px;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.form-grid > label {
+  min-width: 0;
+}
+.date-row .form-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.tool-fields select,
+.tool-fields input:not([type="checkbox"]) {
+  width: 100%;
+}
+.inventory {
+  min-width: 0;
+}
+.inventory-row select,
+.inventory-row input {
+  width: 100%;
+}
+.inventory-row:has(select[aria-label="品质"]) {
+  grid-template-columns: minmax(0, 1fr) 65px 80px auto;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.small {
+  font-size: 12px;
+  padding: 5px 8px;
+}
+.tool-input {
+  font-size: 12px;
+  margin: 12px 0;
+  color: var(--muted);
+}
+.tool-input pre {
+  background: var(--hover);
+  padding: 10px;
+  border-radius: 7px;
+}
+.tool-results .notice-box {
+  overflow-wrap: anywhere;
+}
+.markdown {
+  max-width: 100%;
+}
+.markdown :last-child {
+  margin-bottom: 0;
+}
+.markdown pre {
+  overflow: auto;
+}
+.sources .source-row {
+  border-bottom: 1px solid var(--border);
+}
+.server-history a[aria-disabled="true"] {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.is-empty .messages:has(#messages-end:only-child) {
+  display: none;
+}
+@media (max-width: 767px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .inventory-row:has(select[aria-label="品质"]) {
+    grid-template-columns: minmax(0, 1fr) 55px 70px auto;
+  }
+  .tool-fields {
+    gap: 16px;
+  }
+  .conversation-page.is-empty {
+    min-height: 0;
+  }
+  .empty-brand h1 {
+    text-wrap: balance;
+  }
+}

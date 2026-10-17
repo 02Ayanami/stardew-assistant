@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dev.stardew.assistant.data.GameMapper">
+ <select id="all" resultType="string">SELECT content FROM game_entity WHERE (#{type}='all' OR type=#{type}) ORDER BY id</select>
+ <select id="find" resultType="string">SELECT e.content FROM game_entity e WHERE (#{type}='all' OR e.type=#{type}) AND (LOWER(e.id)=LOWER(#{query}) OR LOWER(e.name)=LOWER(#{query}) OR EXISTS(SELECT 1 FROM entity_alias a WHERE a.entity_id=e.id AND LOWER(a.name)=LOWER(#{query}))) ORDER BY e.id</select>
+ <delete id="clearAliases">DELETE FROM entity_alias</delete>
+ <delete id="clearEntities">DELETE FROM game_entity</delete>
+ <insert id="insertEntity">INSERT INTO game_entity(id,type,name,content) VALUES(#{id},#{type},#{name},#{content})</insert>
+ <insert id="insertAlias">INSERT INTO entity_alias(entity_id,name) VALUES(#{id},#{name})</insert>
+ <select id="metadata" resultType="map">SELECT * FROM data_import WHERE id=1</select>
+ <update id="beginImport">UPDATE data_import SET status='IMPORTING' WHERE id=1</update>
+ <update id="failed">UPDATE data_import SET status='FAILED' WHERE id=1</update>
+ <update id="ready">UPDATE data_import SET dataset_id=#{dataset},game_version=#{version},content_hash=#{hash},embedding_model=#{model},dimension=#{dimension},entity_count=#{entities},guide_count=#{guides},status='READY' WHERE id=1</update>
+</mapper>
